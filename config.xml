@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget version="1.0.0">
+    <name>GYMRAT</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="bernibrunet7@gmail.com">
+        Isaac Pascual
+        Bernat Brunet
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <icon src="www/img/social-ico.png" />
+        <allow-intent href="market:*" />
+        <access origin="*" />
+        <allow-intent href="*" />
+        <allow-navigation href="*" />
+        <access launch-external="yes" origin="*" />
+    </platform>
+</widget>
