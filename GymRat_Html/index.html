@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GymRat</title>
+        <link rel="icon" type="image/x-icon" href="GymRat.jpg">
+        <link rel="stylesheet" type="text/css" href="cssFile.css">
+        <script src="jsFile.js"></script>
+        <!-- <meta id="viewportMetaID" name="viewport" content="width=device-width, initial-scale=0.8"> -->
+        <!--  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/> -->
+        <script type="text/javascript">
+            window.onload = readLogsTxt()
+        </script>
+    </head>
+    <body>
+        <div class="topnav" id="topnavID">
+            <div class="dropdown" id="dropdownID">
+                <div id="mySidepanel" class="sidepanel" style="width: 0">
+                    <a href="javascript:void(0)" class="closebtn" onclick="actionNav()" style="font-size: 130px">&times;</a>
+                    <a href="./index.html">Home</a>
+                    <a href="javascript:void(0)" onclick="">Logs</a>
+                </div>
+                <button id="SlidePanelButton" class="openbtn" onclick="actionNav()"><img src="./HamburgerIcon.png" class="hamburgerIconSidePanel"></button>
+            </div>
+            <div class="tittleContainer">
+                <h1 class="tittle">GYM RAT</h1>
+                <h2 class="subTittle">By Ipasky and Rebbant</h2>
+            </div>
+        </div>
+        <div class="activitatContainer" id="activitatContainerID">
+            <div class="camesContainer" id="camesID">
+                <div class="camesTopInfo">
+                    <div style="flex: 1">
+                        <h1 class="activitatTittle">Maquines de Cames</h1>
+                    </div>
+                    <div style="display: flex; align-items: center">
+                        <h1 class="numMaquina">Num.</h1>
+                        <input id="inputMaquinaCames_ID" class="inputMaquina" type="number" min="0" max="1000" placeholder="" oninput="checkNumMaquina('inputMaquinaCames_ID', 'plusBCames_ID')">
+                    </div>
+                    <div>
+                        <button id="plusBCames_ID" class="plusB" onclick="crearMaquina('inputMaquinaCames_ID')"><img class="plusI" src="plus.png"></button>
+                    </div>
+                    <div>
+                        <button class="dropB" onclick="dropButtonMaquines()"><img class="dropI" id="dropICames_ID" src="drop.png"></button>
+                    </div>
+                </div>
+                <hr>
+                <div id="camesMaquinesContainerCreator" style="display: none">
+                    <!-- Llistat de màquines generades per crearMaquinaCames()-->
+                </div>
+            </div>
+            <div class="pectoralContainer" id="pectoralID">
+                <div class="pectoralTopInfo">
+                    <div style="flex: 1">
+                        <h1 class="activitatTittle">Maquines de Pectoral</h1>
+                    </div>
+                    <div style="display: flex; align-items: center">
+                        <h1 class="numMaquina">Num.</h1>
+                        <input type="number" min="0" max="1000" class="inputMaquina" placeholder="">
+                    </div>
+                    <div>
+                        <button class="plusB"><img class="plusI" src="plus.png"></button>
+                    </div>
+                    <div>
+                        <button class="dropB"><img class="dropI" src="drop.png"></button>
+                    </div>
+                </div>
+                <hr>
+                <div id="pectoralMaquinesContainerCreator">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

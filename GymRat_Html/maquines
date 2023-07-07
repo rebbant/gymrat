@@ -1,0 +1,65 @@
+                    <!--<div class="camesMaquinesContainer" id="camesMaquinesContainerID">
+                        <div class="maquinaInputContainer">
+                            <h1 class="numeroMaquina">[10]</h1>
+                            <input class="inputKg" placeholder="Pes" type="number"> <h1 class="kgMaquina">Kg</h1>
+                            <input class="inputReps" placeholder="'x x x'" type="text"> <h1 class="repsMaquina">Reps</h1>
+                            <button class="plusBMaquina"><img class="plusI" src="plus.png"></button>
+                            <button class="dropBMaquina" style="margin-right: 10px" onclick="dropButtonMaquinaLog()"><img class="dropI" src="drop.png"></button>
+                        </div>
+                        <div class="maquinaLog" id="maquinaLogID">
+                            <div class="maquinaLogDates">
+                                <table style="text-align: left; margin: 10px">
+                                    <tr>
+                                        <th class="maquinaLogDatesText">Dilluns</th>
+                                        <th class="maquinaLogDatesText">03/07/23</th>
+                                        <th class="maquinaLogDatesText">11:30:23</th>
+                                        <th class="maquinaLogDatesText">40kg</th>
+                                        <th class="maquinaLogDatesText">15-15-15</th>
+                                        <th><button class="maquinaLogDatesTrashButton"><img src="trash.png" style="width: 15px; margin-top: 2px"></button></th>
+                                    </tr>
+                                    <tr>
+                                        <th class="maquinaLogDatesText">Dimarts</th>
+                                        <th class="maquinaLogDatesText">04/07/23</th>
+                                        <th class="maquinaLogDatesText">11:30:23</th>
+                                        <th class="maquinaLogDatesText">45kg</th>
+                                        <th class="maquinaLogDatesText">15-15-15</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="maquinaLogDatesText">Dimecres</th>
+                                        <th class="maquinaLogDatesText">05/07/23</th>
+                                        <th class="maquinaLogDatesText">11:30:23</th>
+                                        <th class="maquinaLogDatesText">45kg</th>
+                                        <th class="maquinaLogDatesText">15-15-15</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="maquinaLogDatesText">Dijous</th>
+                                        <th class="maquinaLogDatesText">06/07/23</th>
+                                        <th class="maquinaLogDatesText">11:30:23</th>
+                                        <th class="maquinaLogDatesText">50kg</th>
+                                        <th class="maquinaLogDatesText">15-15-15</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="maquinaLogDatesText">Divendres</th>
+                                        <th class="maquinaLogDatesText">07/07/23</th>
+                                        <th class="maquinaLogDatesText">11:30:23</th>
+                                        <th class="maquinaLogDatesText">55kg</th>
+                                        <th class="maquinaLogDatesText">15-15-15</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="maquinaLogDatesText">Dissabte</th>
+                                        <th class="maquinaLogDatesText">08/07/23</th>
+                                        <th class="maquinaLogDatesText">11:30:23</th>
+                                        <th class="maquinaLogDatesText">60kg</th>
+                                        <th class="maquinaLogDatesText">15-15-15</th>
+                                    </tr>
+                                </table>
+                                <div class="maquinaLogDatesUpDownButtons">
+                                    <button class="maquinaLogDatesUpButton"><img src="drop.png" style="height: 50px; rotate: 180deg"></button>
+                                    <button class="maquinaLogDatesDownButton"><img src="drop.png" style="height: 50px;"></button>
+                                </div>
+                            </div>
+                            <div class="maquinaLogGrafic">
+                                <img src="grafic.png" class="maquinaLogGraficPNG">
+                            </div>
+                        </div>
+                    </div>-->
